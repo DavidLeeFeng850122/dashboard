@@ -16,7 +16,7 @@ jobs:
         steps:
 
             - name: Clone Tabler
-              uses: actions/checkout@v2
+              uses: actions/checkout@v3
 
             - name: Prevent lock file change
               uses: xalvarez/prevent-file-change-action@v1
